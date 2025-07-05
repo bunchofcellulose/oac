@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Online Astronomy Competition (OAC) Website
+
+A modern, responsive website for the Online Astronomy Competition (OAC) built with Next.js, TypeScript, and Tailwind CSS. The website provides information about the competition, registration process, sample problems, and study materials for high school astronomy enthusiasts.
+
+## Features
+
+- **Modern Design**: Clean, professional layout with responsive design
+- **Hero Section**: Compelling introduction with call-to-action buttons
+- **About Section**: Detailed information about the OAC and its mission
+- **Registration Process**: Simple registration guide for all participants
+- **Sample Problems**: Showcase of astronomy challenges participants will face
+- **FAQ Section**: Expandable frequently asked questions
+- **Registration Form**: Complete registration form with validation
+- **Contact Information**: Easy ways to get in touch with organizers
+- **Mobile-Friendly**: Fully responsive design for all devices
+
+## Tech Stack
+
+- **Next.js 15**: React framework with App Router
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first CSS framework
+- **Lucide React**: Modern icon library
+- **Responsive Design**: Mobile-first approach
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── layout.tsx          # Root layout
+│   ├── page.tsx            # Homepage
+│   └── globals.css         # Global styles
+├── components/
+│   ├── Navigation.tsx      # Navigation bar
+│   ├── Hero.tsx            # Hero section
+│   ├── About.tsx           # About section
+│   ├── Registration.tsx    # Registration process
+│   ├── SampleProblems.tsx  # Sample problems
+│   ├── FAQ.tsx             # FAQ section
+│   ├── RegistrationForm.tsx # Registration form
+│   ├── Contact.tsx         # Contact information
+│   └── Footer.tsx          # Footer
+└── public/                 # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Components
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Navigation**: Responsive navigation with mobile menu
+- **Hero**: Eye-catching hero section with space/astronomy theme
+- **About**: Information about the OAC and its mission
+- **Registration**: Simple registration process for all participants
+- **Sample Problems**: Astronomy problem examples
+- **FAQ**: Expandable question and answer section
+- **Registration Form**: Complete registration form with validation
+- **Contact**: Contact information and organizer details
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Development Commands
 
-## Learn More
+```bash
+# Development server
+npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+# Build for production
+npm run build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Start production server
+npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Run linting
+npm run lint
+```
 
-## Deploy on Vercel
+## Competition Details
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Date**: August 30, 2025
+- **Format**: Online competition
+- **Time**: 12:00 - 23:59 EST
+- **Registration Fee**: Free
+- **Eligibility**: High school students (grades 9-12)
+- **Age Limit**: 18 years or younger
+- **Open to**: All students worldwide
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+For questions about the competition:
+
+- Email: astronomycompetition@gmail.com
+- Response time: 48 hours
+
+## License
+
+This project is built for educational purposes and the Online Astronomy Competition.
