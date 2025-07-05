@@ -39,6 +39,21 @@ jobs:
       - name: Build with Next.js
         run: npm run build
         
+      - name: Debug - List files
+        run: |
+          echo "Listing root directory:"
+          ls -la
+          echo "Checking if out directory exists:"
+          if [ -d "out" ]; then
+            echo "out directory exists"
+            echo "Contents of out directory:"
+            ls -la out/
+          else
+            echo "out directory does not exist"
+            echo "Checking .next directory:"
+            ls -la .next/ || echo ".next directory also doesn't exist"
+          fi
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
