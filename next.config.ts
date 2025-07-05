@@ -1,10 +1,12 @@
-/** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
   output: 'export',
-  basePath: '/oac', // 🔁 Replace with your repo name (NOT username)
+  basePath: isProd ? '/oac' : '',
+  assetPrefix: isProd ? '/oac/' : '',
   images: {
     unoptimized: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
