@@ -22,7 +22,6 @@
   },
   "scripts": {
     "build": "next build",
-    "export": "next export",
     "deploy": "gh-pages -d out"
   }
 }
