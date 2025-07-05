@@ -3,17 +3,17 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change if your default branch is not 'main'
+      - main
 
 permissions:
-  contents: write  # Required to push to gh-pages branch
+  contents: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -25,15 +25,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build (auto-exports to out/)
+      - name: Build (auto-export to out/)
         run: npm run build
 
-      - name: Add .nojekyll to support _next/ folder
+      - name: Add .nojekyll for GitHub Pages
         run: touch out/.nojekyll
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
-          publish_branch: gh-pages
