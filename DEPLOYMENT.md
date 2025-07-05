@@ -55,3 +55,14 @@ The site is configured for static export with:
 - If deployment fails, check the Actions tab for error details
 - Ensure your repository has GitHub Pages enabled
 - Verify that the workflow has the necessary permissions
+- **Common Issues:**
+  - Make sure you have an `out` directory after build (Next.js static export)
+  - Ensure the repository is public for free GitHub Pages
+  - Check that the workflow permissions are correctly set
+  - Verify that GitHub Pages is set to use "GitHub Actions" as source
+
+## Recent Fixes
+
+- Updated workflow to use latest action versions (v4 for configure-pages, v3 for upload-pages-artifact)
+- Fixed permissions placement in workflow file
+- Removed pull_request trigger to avoid unnecessary deployments
