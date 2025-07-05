@@ -83,11 +83,13 @@ npm start
 npm run lint
 ```
 
-## 🚀 Deployment to GitHub Pages
+## 🚀 Deployment Options
+
+### GitHub Pages
 
 This repository includes a GitHub Actions workflow that automatically deploys to GitHub Pages when you push to the main branch.
 
-### Setup Instructions:
+#### Setup Instructions:
 
 1. **Enable GitHub Pages**:
    - Go to your repository settings
@@ -97,6 +99,28 @@ This repository includes a GitHub Actions workflow that automatically deploys to
 2. **Push to main branch**:
    - The workflow will automatically trigger
    - Your site will be available at `https://yourusername.github.io/oac`
+
+### Firebase Hosting (Recommended)
+
+Firebase Hosting provides better performance, custom domains, and advanced features.
+
+#### Quick Setup:
+
+1. **Install Firebase CLI**: `npm install -g firebase-tools`
+2. **Create Firebase Project**: Visit [Firebase Console](https://console.firebase.google.com)
+3. **Configure**: Update `.firebaserc` with your project ID
+4. **Deploy**: Run `npm run deploy:firebase`
+
+📋 **Detailed Instructions**: See [FIREBASE_SETUP.md](./FIREBASE_SETUP.md) for complete setup guide.
+
+#### Available Firebase Scripts:
+
+```bash
+npm run firebase:build     # Build the project
+npm run firebase:deploy    # Deploy to Firebase
+npm run firebase:serve     # Test locally
+npm run deploy:firebase    # Build and deploy
+```
 
 ### Manual Deployment:
 

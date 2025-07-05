@@ -1,4 +1,4 @@
-import { Mail, Clock, BookOpen } from 'lucide-react';
+import { Mail, BookOpen } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -15,7 +15,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-1 gap-8">
           <div className="bg-gradient-to-br from-slate-700 to-slate-800 p-6 rounded-lg border border-slate-600 shadow-lg hover:shadow-xl hover:shadow-orange-500/10 transition-all duration-300">
             <div className="flex items-center mb-4">
               <Mail className="w-6 h-6 text-orange-400 mr-3" />
@@ -31,19 +31,6 @@ export default function Contact() {
               <Mail className="w-4 h-4 mr-2" />
               astronomycompetition@gmail.com
             </a>
-          </div>
-
-          <div className="bg-gradient-to-br from-slate-700 to-slate-800 p-6 rounded-lg border border-slate-600 shadow-lg hover:shadow-xl hover:shadow-orange-500/10 transition-all duration-300">
-            <div className="flex items-center mb-4">
-              <Clock className="w-6 h-6 text-orange-400 mr-3" />
-              <h3 className="text-xl font-bold text-white">Response Time</h3>
-            </div>
-            <p className="text-slate-300 mb-4">
-              We respond to all inquiries within 48 hours. Mark urgent competition matters as &quot;URGENT&quot;.
-            </p>
-            <div className="text-sm text-slate-400">
-              <strong className="text-orange-300">Best times to contact:</strong> Weekdays 9 AM - 5 PM EST
-            </div>
           </div>
         </div>
 

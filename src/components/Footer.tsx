@@ -38,7 +38,6 @@ export default function Footer() {
                   astronomycompetition@gmail.com
                 </a>
               </li>
-              <li>Response time: 48 hours</li>
               <li>Competition: August 30, 2025</li>
               <li>Registration: FREE</li>
             </ul>
