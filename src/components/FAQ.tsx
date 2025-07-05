@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 export default function FAQ() {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
@@ -82,7 +82,7 @@ export default function FAQ() {
 
         <div className="text-center mt-12">
           <p className="text-slate-300 mb-4">
-            Have a question that's not answered here?
+            Have a question that&apos;s not answered here?
           </p>
           <a
             href="#contact"

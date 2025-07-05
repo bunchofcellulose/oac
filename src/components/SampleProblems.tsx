@@ -8,7 +8,7 @@ export default function SampleProblems() {
           <h2 className="text-4xl font-bold text-white mb-4">Sample Problems</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-orange-500 to-yellow-500 mx-auto mb-6"></div>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-            Explore the types of challenging astronomy problems you'll encounter in the OAC. These samples demonstrate
+            Explore the types of challenging astronomy problems you&apos;ll encounter in the OAC. These samples demonstrate
             the level of knowledge and analytical thinking required for success.
           </p>
         </div>
@@ -40,7 +40,7 @@ export default function SampleProblems() {
             </p>
             <div className="bg-slate-800/50 p-4 rounded text-sm text-slate-300 border border-slate-600">
               <strong className="text-orange-400">Example:</strong> An exoplanet orbits its star with a period of 365 days. If the star has 
-              a mass of 1.2 solar masses, calculate the planet's orbital radius and determine if it lies within the habitable zone.
+              a mass of 1.2 solar masses, calculate the planet&apos;s orbital radius and determine if it lies within the habitable zone.
             </div>
           </div>
 
@@ -55,7 +55,7 @@ export default function SampleProblems() {
             </p>
             <div className="bg-slate-800/50 p-4 rounded text-sm text-slate-300 border border-slate-600">
               <strong className="text-orange-400">Example:</strong> A telescope with a 10-meter primary mirror observes a galaxy. 
-              Calculate the telescope's light-gathering power compared to the human eye and determine 
+              Calculate the telescope&apos;s light-gathering power compared to the human eye and determine 
               the faintest magnitude it can detect.
             </div>
           </div>
@@ -99,7 +99,7 @@ export default function SampleProblems() {
                 <Book className="w-8 h-8 text-white mx-auto" />
               </div>
               <h4 className="font-semibold text-white mb-2 group-hover:text-orange-300 transition-colors duration-300">Celestial Mechanics</h4>
-              <p className="text-sm text-slate-300">Kepler's laws, orbital dynamics, gravitational physics</p>
+              <p className="text-sm text-slate-300">Kepler&apos;s laws, orbital dynamics, gravitational physics</p>
             </div>
             <div className="text-center group cursor-pointer transform hover:scale-105 transition-all duration-300">
               <div className="bg-gradient-to-br from-orange-500 to-yellow-500 p-4 rounded-lg mb-4 mx-auto w-fit group-hover:shadow-lg group-hover:shadow-orange-500/50 transition-all duration-300">

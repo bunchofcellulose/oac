@@ -83,6 +83,35 @@ npm start
 npm run lint
 ```
 
+## 🚀 Deployment to GitHub Pages
+
+This repository includes a GitHub Actions workflow that automatically deploys to GitHub Pages when you push to the main branch.
+
+### Setup Instructions:
+
+1. **Enable GitHub Pages**:
+   - Go to your repository settings
+   - Navigate to "Pages" in the left sidebar
+   - Under "Source", select "GitHub Actions"
+
+2. **Push to main branch**:
+   - The workflow will automatically trigger
+   - Your site will be available at `https://yourusername.github.io/oac`
+
+### Manual Deployment:
+
+If you prefer to deploy manually:
+
+```bash
+npm run build
+# Upload the contents of the 'out' folder to your hosting provider
+```
+
+The Next.js configuration is already set up for static export with:
+- `output: 'export'` - Enables static HTML export
+- `trailingSlash: true` - Adds trailing slashes for GitHub Pages
+- `images: { unoptimized: true }` - Disables image optimization for static export
+
 ## Competition Details
 
 - **Date**: August 30, 2025

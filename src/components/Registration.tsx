@@ -127,7 +127,7 @@ export default function Registration() {
             href="#registration-form"
             className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-lg hover:from-orange-600 hover:to-yellow-600 transition-all duration-300 text-lg font-semibold transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/25"
           >
-            <span className="mr-2">Register Now - It's Free!</span>
+            <span className="mr-2">Register Now - It&apos;s Free!</span>
             <span className="transition-transform duration-300 group-hover:translate-x-1">🚀</span>
           </a>
         </div>

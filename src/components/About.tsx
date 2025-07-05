@@ -11,7 +11,7 @@ export default function About() {
           <div className="space-y-6">
             <p className="text-lg text-slate-300 leading-relaxed">
               The Online Astronomy Competition (OAC) is a free, open competition designed for high school students 
-              passionate about astronomy and space science. Whether you're a seasoned stargazer or just beginning 
+              passionate about astronomy and space science. Whether you&apos;re a seasoned stargazer or just beginning 
               to explore the cosmos, the OAC provides an exciting platform to test your knowledge and compete with 
               fellow astronomy enthusiasts from around the world.
             </p>
@@ -27,7 +27,7 @@ export default function About() {
               Participation in the OAC is completely free and open to all high school students worldwide. 
               The competition is conducted entirely online, making it accessible to students regardless of 
               their location. Top performers receive recognition and certificates, making the OAC a valuable 
-              addition to any student's academic portfolio.
+              addition to any student&apos;s academic portfolio.
             </p>
           </div>
           
