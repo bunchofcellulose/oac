@@ -1,32 +1,32 @@
-name: Deploy to Firebase Hosting
+name: build_and_deploy
 
 on:
   push:
-    branches:
-      - main  # or 'master' if that's your default
+    branches: [main]
 
 jobs:
-  build_and_deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build static site (next export)
+      - name: Build Next.js site
         run: npm run build
 
       - name: Install Firebase CLI
         run: npm install -g firebase-tools
 
       - name: Deploy to Firebase Hosting
-        run: firebase deploy --token ${{ secrets.FIREBASE_DEPLOY_TOKEN }}
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: firebase deploy --only hosting
