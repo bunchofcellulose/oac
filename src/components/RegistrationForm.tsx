@@ -16,11 +16,30 @@ export default function RegistrationForm() {
     motivation: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Registration submitted successfully! You will receive a confirmation email shortly.');
+
+    try {
+      const res = await fetch("https://your-backend-url.up.railway.app/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const msg = await res.text();
+
+      if (res.ok) {
+        alert("✅ Registration successful! Check your email for confirmation.");
+      } else {
+        alert(`❌ Error: ${msg}`);
+      }
+
+    } catch (err) {
+      console.error("Error submitting form", err);
+      alert("❌ Failed to submit form.");
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
