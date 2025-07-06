@@ -20,7 +20,7 @@ export default function RegistrationForm() {
     e.preventDefault();
 
     try {
-      const res = await fetch('https://oac-backend-production.up.railway.app/register', {
+      const res = await fetch('https://oac-backend-production.up.railway.app/api/register', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
