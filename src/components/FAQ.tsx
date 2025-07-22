@@ -29,7 +29,7 @@ export default function FAQ() {
     },
     {
       question: "When and where is the 2025 OAC held?",
-      answer: "The 2025 OAC will be held on August 30, 2025, as an online competition. The competition window is from 12:00 to 23:59 Eastern Standard Time, allowing participants from different time zones to compete."
+      answer: "The 2025 OAC will be held in two rounds: First Round on September 6, 2025, and Second Round on October 4, 2025, as online competitions. The competition window for each round is from 12:00 to 23:59 Eastern Standard Time, allowing participants from different time zones to compete."
     },
     {
       question: "Do I need special software or equipment?",

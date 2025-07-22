@@ -4,17 +4,17 @@ export default function Registration() {
   const benefits = [
     {
       title: "Free Participation",
-      description: "No registration fees or hidden costs. The competition is completely free for all participants.",
+      description: "No registration fees. The competition is completely free for all participants.",
       icon: <Star className="w-8 h-8 text-orange-400" />
     },
     {
       title: "Open to All",
-      description: "Any high school student (grades 9-12) worldwide can participate. No prerequisites or qualifications required.",
+      description: "Any high school student (grades 9-12) worldwide can participate.",
       icon: <Globe className="w-8 h-8 text-orange-400" />
     },
     {
       title: "Online Format",
-      description: "Participate from anywhere in the world. All you need is an internet connection and a passion for astronomy.",
+      description: "Participate from anywhere in the world. All you need is an internet connection.",
       icon: <UserPlus className="w-8 h-8 text-orange-400" />
     },
     {
@@ -111,25 +111,11 @@ export default function Registration() {
         <div className="bg-gradient-to-br from-slate-800 to-slate-700 border border-slate-600 p-6 rounded-lg text-center shadow-xl">
           <h4 className="font-semibold text-white mb-2">Important Dates</h4>
           <p className="text-slate-300">
-            <strong className="text-orange-400">Competition Date:</strong> August 30, 2025<br />
+            <strong className="text-orange-400">First Round:</strong> September 6, 2025<br />
+            <strong className="text-orange-400">Second Round:</strong> October 4, 2025<br />
             <strong className="text-orange-400">Time window:</strong> 12:00 - 23:59 Eastern Standard Time<br />
-            <strong className="text-orange-400">Registration Deadline:</strong> August 25, 2025
+            <strong className="text-orange-400">Registration Deadline:</strong> September 1, 2025
           </p>
-        </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-12 ">
-          <h4 className="text-2xl font-semibold text-white mb-4">Ready to Explore the Universe?</h4>
-          <p className="text-slate-300 mb-6">
-            Join hundreds of students from around the world in this exciting astronomy competition!
-          </p>
-          <a
-            href="#registration-form"
-            className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-lg hover:from-orange-600 hover:to-yellow-600 transition-all duration-300 text-lg font-semibold transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/25"
-          >
-            <span className="mr-2">Register Now - It&apos;s Free!</span>
-            <span className="transition-transform duration-300 group-hover:translate-x-1">🚀</span>
-          </a>
         </div>
       </div>
     </section>

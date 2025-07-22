@@ -138,7 +138,8 @@ The Next.js configuration is already set up for static export with:
 
 ## Competition Details
 
-- **Date**: August 30, 2025
+- **First Round**: September 6, 2025
+- **Second Round**: October 4, 2025
 - **Format**: Online competition
 - **Time**: 12:00 - 23:59 EST
 - **Registration Fee**: Free
@@ -150,7 +151,7 @@ The Next.js configuration is already set up for static export with:
 
 For questions about the competition:
 
-- Email: astronomycompetition@gmail.com
+- Email: admin@officialastro.org
 - Response time: 48 hours
 
 ## License
