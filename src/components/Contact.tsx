@@ -25,11 +25,11 @@ export default function Contact() {
               For questions about registration, competition details, or technical support.
             </p>
             <a
-              href="mailto:astronomycompetition@gmail.com"
+              href="mailto:admin@officialastro.org"
               className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-orange-500 to-yellow-500 text-white rounded-lg hover:from-orange-600 hover:to-yellow-600 transition-all duration-300 transform hover:scale-105 text-sm font-medium"
             >
               <Mail className="w-4 h-4 mr-2" />
-              astronomycompetition@gmail.com
+              admin@officialastro.org
             </a>
           </div>
         </div>

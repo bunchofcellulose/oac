@@ -37,6 +37,39 @@ body {
   100% { opacity: 1; }
 }
 
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .animate-float {
   animation: float 3s ease-in-out infinite;
 }
@@ -48,6 +81,24 @@ body {
 .animate-pulse-custom {
   animation: pulse 0.6s ease-in-out;
 }
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+/* Animation delays */
+.animation-delay-300 { animation-delay: 0.3s; }
+.animation-delay-600 { animation-delay: 0.6s; }
+.animation-delay-900 { animation-delay: 0.9s; }
+.animation-delay-1200 { animation-delay: 1.2s; }
 
 /* Predefined star positions and delays */
 .star-1 { left: 10%; top: 20%; animation-delay: 0s; }

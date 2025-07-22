@@ -23,7 +23,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4 text-orange-300">Quick Links</h3>
             <ul className="space-y-2 text-slate-400">
               <li><a href="#about" className="hover:text-orange-300 transition-colors duration-300 transform hover:translate-x-1">About</a></li>
-              <li><a href="#register" className="hover:text-orange-300 transition-colors duration-300 transform hover:translate-x-1">Register</a></li>
+              <li><a href="#registration-form" className="hover:text-orange-300 transition-colors duration-300 transform hover:translate-x-1">Register</a></li>
               <li><a href="#problems" className="hover:text-orange-300 transition-colors duration-300 transform hover:translate-x-1">Problems</a></li>
               <li><a href="#faq" className="hover:text-orange-300 transition-colors duration-300 transform hover:translate-x-1">FAQ</a></li>
               <li><a href="#contact" className="hover:text-orange-300 transition-colors duration-300 transform hover:translate-x-1">Contact</a></li>
@@ -34,12 +34,12 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4 text-orange-300">Contact</h3>
             <ul className="space-y-2 text-slate-400">
               <li>
-                <a href="mailto:astronomycompetition@gmail.com" className="hover:text-orange-300 transition-colors duration-300 transform hover:translate-x-1">
-                  astronomycompetition@gmail.com
+                <a href="mailto:admin@officialastro.org" className="hover:text-orange-300 transition-colors duration-300 transform hover:translate-x-1">
+                  admin@officialastro.org
                 </a>
               </li>
-              <li>Competition: August 30, 2025</li>
-              <li>Registration: FREE</li>
+              <li>First Round: September 6, 2025</li>
+              <li>Second Round: October 4, 2025</li>
             </ul>
           </div>
         </div>
@@ -47,9 +47,6 @@ export default function Footer() {
         <div className="border-t border-slate-700 mt-8 pt-8 text-center ">
           <p className="text-slate-300">
             © Online Astronomy Competition 2025. All rights reserved.
-          </p>
-          <p className="text-slate-400 mt-2 text-sm">
-            Inspiring Future Astronomers <span className="animate-twinkle">🌟</span>
           </p>
         </div>
       </div>
