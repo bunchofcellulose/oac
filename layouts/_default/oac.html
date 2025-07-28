@@ -1,0 +1,319 @@
+{{ define "main" }}
+<style>
+  body {
+    overflow-x: hidden;
+  }
+  
+  .oac-page {
+    background: #000000;
+    min-height: 100vh;
+    font-family: 'Futura', 'Arial', sans-serif;
+    color: #e5e7eb;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    overflow-x: hidden;
+  }
+  
+  .oac-content {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+
+  .contact-btn a {
+    color: #fb923c;
+    transition: color 0.2s;
+  }
+  .contact-btn a:hover {
+      color: #ea580c;
+  }
+  
+  .oac-content h1 {
+    font-family: 'Dune Rise', 'Comic Sans MS', cursive;
+    font-size: 6rem;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .oac-section {
+    padding: 4rem 10%;
+    margin-bottom: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box;
+  }
+  
+  .oac-section:nth-child(odd) {
+    background: #000000;
+  }
+  
+  .oac-section:nth-child(even) {
+    background: #111111;
+  }
+  
+  .oac-section .section-content {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .oac-section .section-title {
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 0 0 2rem 0;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .oac-section .subsection-title {
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 3rem 0 1.5rem 0;
+    color: #d1d5db;
+    text-align: center;
+  }
+  
+  .oac-section .sub-title {
+    font-family: 'Futura', 'Arial', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 2rem 0 0.8rem 0;
+    color: #f3f4f6;
+    text-align: center;
+  }
+  
+  .oac-section p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #d1d5db;
+    margin-bottom: 1.5rem;
+  }
+  
+  .oac-section ul {
+    margin: 1rem 0;
+    padding-left: 0;
+    list-style: none;
+  }
+  
+  .oac-section ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+    counter-reset: item;
+  }
+  
+  .oac-section ol li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #d1d5db;
+    margin-bottom: 0.8rem;
+    padding-left: 0;
+    position: relative;
+    list-style-type: decimal;
+  }
+  
+  .oac-section ul li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #d1d5db;
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .oac-section ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #6366f1;
+    font-weight: 600;
+  }
+  
+  .oac-section ol li::before {
+    display: none;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .feature-item {
+    padding: 2rem;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .feature-item:hover {
+    transform: translateY(-4px);
+  }
+  
+  .feature-item h4 {
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #ffffff;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+    margin: 0;
+    color: #d1d5db;
+  }
+  
+  .organizer-card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2.5rem 0;
+    margin: 2rem 0;
+    border-bottom: 1px solid #374151;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .organizer-card:hover {
+    transform: translateY(-2px);
+  }
+  
+  .organizer-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #6366f1 0%, #f43f5e 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    flex-shrink: 0;
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+  }
+  
+  .organizer-info h4 {
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  .organizer-info p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #d1d5db;
+  }
+  
+  .organizer-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .organizer-links a {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border: 1px solid #6366f1;
+    border-radius: 6px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 0.9rem;
+    font-family: 'Futura', 'Arial', sans-serif;
+  }
+  
+  .organizer-links a:hover {
+    background: #6366f1;
+    color: white;
+    transform: translateY(-1px);
+  }
+  
+  .simple-list {
+    columns: 1;
+    column-gap: 0;
+    margin: 1rem 0;
+  }
+  
+  .simple-list ul {
+    list-style: disc;
+    padding-left: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .simple-list li {
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+    color: #d1d5db;
+    padding-left: 0;
+  }
+  
+  .simple-list li::before {
+    display: none;
+  }
+  
+  .license-box {
+    border: 2px solid #10b981;
+    background: rgba(16, 185, 129, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    backdrop-filter: blur(10px);
+    text-align: center;
+  }
+  
+  .license-box h4 {
+    color: #10b981;
+    margin-top: 0;
+    font-family: 'Futura-Bold', 'Arial', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .license-box p {
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    .oac-content {
+      max-width: 95%;
+      padding: 2rem 1rem;
+    }
+    
+    .oac-section {
+      padding: 3rem 5%;
+    }
+    
+    .oac-section .section-content {
+      max-width: 95%;
+    }
+    
+    .oac-content h1 {
+      font-size: 4rem;
+    }
+    
+    .oac-section .section-title {
+      font-size: 2.5rem;
+    }
+    
+    .oac-section .subsection-title {
+      font-size: 1.5rem;
+    }
+    
+    .organizer-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+</style>
+
+<div class="oac-page">
+  <div class="oac-content">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

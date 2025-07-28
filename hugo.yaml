@@ -1,0 +1,92 @@
+baseURL: https://bunchofcellulose.github.io/oac
+languageCode: en-us
+title: OAC
+theme: hextra
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Register
+      pageRef: /register
+      weight: 1
+    - name: About
+      url: /about
+      weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block: [['\[', '\]'], ['$$', '$$']]
+          inline: [['\(', '\)'], ['$', '$']]
+        enable: true
+  highlight:
+    noClasses: false
+
+services:
+  googleAnalytics:
+    ID: G-BHEQ5451BE
+
+params:
+  description: Comprehensive guide for astronomy olympiads
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  math:
+    enable: true
+    katex: true
+
+  navbar:
+    displayTitle: true
+    # displayLogo: true
+    # logo:
+    #   path: images/logo.svg
+    #   dark: images/logo-dark.svg
+    #   # width: 40
+    #   # height: 20
+    #   # link: /
+    width: wide
+
+  page:
+    width: normal
+
+  theme:
+    default: dark
+    displayToggle: false
+
+  footer:
+    enable: true
+    displayThemeToggle: false
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: date
+      sortOrder: desc # or "asc"
+
+    article:
+      displayPagination: true
