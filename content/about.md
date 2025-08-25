@@ -51,7 +51,7 @@ All rounds are conducted online, so you can participate from anywhere in the wor
 <div class="simple-list">
 <ul>
   <li>Free and open to all eligible students worldwide</li>
-  <li>Registration deadline: <strong>September 4, 2025</strong></li>
+  <li>Registration deadline: <strong>September 18, 2025</strong></li>
 </ul>
 </div>
 
@@ -69,10 +69,7 @@ All rounds are conducted online, so you can participate from anywhere in the wor
     <img src="https://github.com/bunchofcellulose.png" alt="Akshat Srivastava" class="organizer-avatar" />
     <div>
       <h3 class="organizer-name">Akshat Srivastava</h3>
-      <p class="organizer-role">Member of the Indian team at IOAA 2025, Co-Founder</p>
-      <div class="organizer-links">
-        <a href="https://github.com/bunchofcellulose" target="_blank">GitHub</a>
-      </div>
+      <p class="organizer-role">IOAA 2025 Gold Medalist, Co-Founder</p>
     </div>
   </div>
   <div class="organizer-card">
@@ -80,9 +77,6 @@ All rounds are conducted online, so you can participate from anywhere in the wor
     <div>
       <h3 class="organizer-name">Aldric Benalan</h3>
       <p class="organizer-role">Member of the US team at IOAA 2025, Co-Founder</p>
-      <div class="organizer-links">
-        <a href="https://github.com/AstroPixel24" target="_blank">GitHub</a>
-      </div>
     </div>
   </div>
 </div>

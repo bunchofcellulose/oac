@@ -12,9 +12,15 @@ menu:
     - name: Register
       pageRef: /register
       weight: 1
+    - name: Results
+      url: /results
+      weight: 2
+    - name: Archive
+      url: /archive
+      weight: 3
     - name: About
       url: /about
-      weight: 2
+      weight: 4
 
 markup:
   goldmark:
@@ -64,7 +70,7 @@ params:
   footer:
     enable: true
     displayThemeToggle: false
-    displayCopyright: true
+    displayCopyright: false
     displayPoweredBy: false
     width: normal
 
