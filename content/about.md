@@ -24,7 +24,7 @@ The <strong>Online Astronomy Competition (OAC)</strong> is a free, international
 The competition consists of <strong>two rounds</strong>:
 
 <ul class="simple-list">
-  <li><strong>1. First Round (September 6, 2025):</strong> Open to all eligible students. This round features multiple-choice and short-answer questions covering a wide range of astronomy topics.</li>
+  <li><strong>1. First Round (September 21, 2025):</strong> Open to all eligible students. This round features multiple-choice and short-answer questions covering a wide range of astronomy topics.</li>
   <li><strong>2. Second Round (October 4, 2025):</strong> Top performers from Round 1 are invited. This round is subjective and consists of olympiad-style, open-ended problems that require deeper understanding and creative thinking.</li>
 </ul>
 
