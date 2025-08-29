@@ -52,12 +52,10 @@ params:
   navbar:
     displayTitle: true
     # displayLogo: true
-    # logo:
-    #   path: images/logo.svg
-    #   dark: images/logo-dark.svg
-    #   # width: 40
-    #   # height: 20
-    #   # link: /
+    logo:
+      path: images/oac.png
+      width: 40
+      height: 20
     width: wide
 
   page:
@@ -86,6 +84,12 @@ params:
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: forward
+
+  favicon:
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    appleTouchIcon: /apple-touch-icon.png
 
   blog:
     list:
