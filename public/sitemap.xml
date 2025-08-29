@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/oac/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>http://localhost:1313/oac/about/</loc>
+    <loc>/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/oac/archive/</loc>
+    <loc>/archive/</loc>
   </url><url>
-    <loc>http://localhost:1313/oac/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/oac/register/</loc>
+    <loc>/register/</loc>
   </url><url>
-    <loc>http://localhost:1313/oac/results/</loc>
+    <loc>/results/</loc>
   </url><url>
-    <loc>http://localhost:1313/oac/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
