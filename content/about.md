@@ -18,7 +18,7 @@ The <strong>Online Astronomy Competition (OAC)</strong> is a free, international
 <div class="oac-section">
   <div class="section-content">
 
-<div class="section-title">Format</div>
+<div class="section-title">Participation and Format</div>
 <div class="section-title-underline"></div>
 
 The competition consists of <strong>two rounds</strong>:
@@ -29,15 +29,6 @@ The competition consists of <strong>two rounds</strong>:
 </ul>
 
 All rounds are conducted online, so you can participate from anywhere in the world.
-
-  </div>
-</div>
-
-<div class="oac-section">
-  <div class="section-content">
-
-<div class="section-title">Participation</div>
-<div class="section-title-underline"></div>
 
 <strong>Eligibility:</strong>
 <div class="simple-list">
@@ -69,29 +60,16 @@ All rounds are conducted online, so you can participate from anywhere in the wor
     <img src="https://github.com/bunchofcellulose.png" alt="Akshat Srivastava" class="organizer-avatar" />
     <div>
       <h3 class="organizer-name">Akshat Srivastava</h3>
-      <p class="organizer-role">IOAA 2025 Gold Medalist, Co-Founder</p>
+      <p class="organizer-role">Gold Medal at IOAA 2025 (Team India), Co-Founder</p>
     </div>
   </div>
   <div class="organizer-card">
     <img src="https://github.com/AstroPixel24.png" alt="Aldric Benalan" class="organizer-avatar" />
     <div>
       <h3 class="organizer-name">Aldric Benalan</h3>
-      <p class="organizer-role">Member of the US team at IOAA 2025, Co-Founder</p>
+      <p class="organizer-role">Honourable Mention at IOAA 2025 (Team USA), Co-Founder</p>
     </div>
   </div>
-</div>
-
-  </div>
-</div>
-
-<div class="oac-section">
-  <div class="section-content">
-
-<div class="section-title">Contact</div>
-<div class="section-title-underline"></div>
-
-<div class="contact-btn">
-If you have any questions about the competition, registration, or participation, please contact us at <a href="mailto:admin@officialastro.org">admin@officialastro.org</a>
 </div>
 
   </div>

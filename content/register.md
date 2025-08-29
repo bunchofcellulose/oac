@@ -17,7 +17,7 @@ toc: false
 
 <div class="registration-box">
   <form
-    action="https://your-backend-url.up.railway.app/register"
+    action=""
     method="POST"
     class="registration-form-card"
   >

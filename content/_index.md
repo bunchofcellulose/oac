@@ -12,7 +12,7 @@ css: /assets/css/custom.css
     </h1>
     <div style="margin-top: 8rem;"></div>
     <div class="buttons">
-      <a href="/oac/register" class="btn" style="font-size:1.13rem;">Register</a>
+      <a href="https://forms.gle/2FxCYCFbwj3gJ7VMA" class="btn" style="font-size:1.13rem;">Register</a>
     </div>
   </div>
 </div>

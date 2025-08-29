@@ -10,16 +10,16 @@ module:
 menu:
   main:
     - name: Register
-      pageRef: /register
+      url: https://forms.gle/2FxCYCFbwj3gJ7VMA
       weight: 1
     - name: Results
-      url: /results
+      pageRef: /results
       weight: 2
     - name: Archive
-      url: /archive
+      pageRef: /archive
       weight: 3
     - name: About
-      url: /about
+      pageRef: /about
       weight: 4
 
 markup:
