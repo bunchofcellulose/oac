@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: "https://online-astronomy-competition.web.app/oac/"
 languageCode: en-us
 title: OAC
 theme: hextra
