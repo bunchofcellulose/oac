@@ -25,12 +25,12 @@ css: /assets/css/custom.css
   <div class="feature">
     <div class="icon">🌟</div>
     <h3>Free & Open for All</h3>
-    <p>The OAC is completely free to enter and open to all high school students worldwide. No fees, no barriers—just a passion for astronomy!</p>
+    <p>The OAC is completely free to enter and open to all high school students worldwide.</p>
   </div>
   <div class="feature">
     <div class="icon">🧠</div>
     <h3>Two-Round Format</h3>
-    <p>Challenge yourself with a multiple-choice first round (open to everyone) and a subjective, olympiad-style second round for top scorers.</p>
+    <p>The competition consists of a multiple-choice first round and a subjective, olympiad-style second round for top scorers.</p>
   </div>
   <div class="feature">
     <div class="icon">🌐</div>
@@ -40,7 +40,7 @@ css: /assets/css/custom.css
   <div class="feature">
     <div class="icon">🚀</div>
     <h3>High Quality Problems</h3>
-    <p>Along with problems written by experienced competitors, portions of the competition focus on practical application and research - a unique opportunity to showcase your skills.</p>
+    <p>Along with problems written by IOAA medalists, portions of the competition focus on practical application and research - a unique opportunity to showcase your skills.</p>
   </div>
 </div>
 
