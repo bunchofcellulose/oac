@@ -259,7 +259,7 @@
   transform: translateX(-50%);
   width: 100vw;
   height: calc(100% + 25vh);
-  background-image: url('/oac/assets/images/bg.png');
+  background-image: url('/assets/images/bg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
