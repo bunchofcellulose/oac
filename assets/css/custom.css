@@ -1,42 +1,24 @@
 @font-face {
     font-family: 'Futura';
-    src: url('/oac/assets/fonts/futura/Futura Book font.ttf') format('truetype');
+    src: url('/assets/fonts/futura/Futura Book font.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Futura-Bold';
-    src: url('/oac/assets/fonts/futura/futura medium bt.ttf') format('truetype');
+    src: url('/assets/fonts/futura/futura medium bt.ttf') format('truetype');
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('/oac/assets/fonts/Roboto/Roboto-ExtraBold.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Courier-Prime';
-    src: url('/oac/assets/fonts/courier-prime/Courier Prime Bold.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Riesling';
-    src: url('/oac/assets/fonts/riesling.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
+@font-face {  
     font-family: 'Dune Rise';
-    src: url('/oac/assets/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
+    src: url('/assets/fonts/dune_rise/Dune_Rise.ttf') format('truetype');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Baskerville';
-    src: url('/oac/assets/fonts/Baskerville/Baskerville-Italic.ttf') format('truetype');
+    src: url('/assets/fonts/Baskerville/Baskerville-Italic.ttf') format('truetype');
     font-display: swap;
 }
 
