@@ -40,7 +40,7 @@ services:
     ID: G-BHEQ5451BE
 
 params:
-  description: Comprehensive guide for astronomy olympiads
+  description: Online Astronomy Competition
 
   displayUpdatedDate: true
   dateFormat: "January 2, 2006"
