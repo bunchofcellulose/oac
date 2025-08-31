@@ -33,8 +33,8 @@ All rounds are conducted online, so you can participate from anywhere in the wor
 <strong>Eligibility:</strong>
 <div class="simple-list">
 <ul>
-  <li>Students currently in grades 9 to 12 (or equivalent)</li>
-  <li>18 years old or younger on the date of the competition</li>
+  <li>Students should not have joined a university (or an equivalent institution) before 1 June 2025</li>
+  <li>20 years old or younger on the date of the competition</li>
 </ul>
 </div>
 
