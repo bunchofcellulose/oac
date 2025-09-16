@@ -77,7 +77,7 @@ toc: false
 
 <div class="contact-btn">
 <p style="text-align:center; margin-top:2rem;">
-  Questions? <a href="mailto:admin@officialastro.org" class="contact-btn">Contact us</a>
+  Questions? <a href="mailto:onlineastrocompetition@gmail.com" class="contact-btn">Contact us</a>
 </p>
 </div>
 
