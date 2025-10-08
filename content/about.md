@@ -105,7 +105,7 @@ All rounds are conducted online, so you can participate from anywhere in the wor
   </div>
   <div class="feature-item">
     <div class="organizer-card">
-      <img src="/images/aarush.png" alt="Aarush Mishra" class="organizer-avatar" />
+      <img src="/images/aarush.jpg" alt="Aarush Mishra" class="organizer-avatar" />
       <div>
         <h3><strong>Aarush Mishra 🇮🇳</strong></h3>
         <p>Gold Medal, IOAA 2025; Gold Medal, IOAA Jr. 2023</p>
