@@ -13,12 +13,6 @@
     margin-left: calc(-50vw + 50%);
     overflow-x: hidden;
   }
-  
-  .oac-content {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 4rem 2rem;
-  }
 
   .contact-btn a {
     color: #fb923c;
@@ -26,6 +20,12 @@
   }
   .contact-btn a:hover {
       color: #ea580c;
+  }
+
+  .oac-content {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 4rem 2rem;
   }
   
   .oac-content h1 {
@@ -138,8 +138,7 @@
   
   .feature-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
     margin: 2rem 0;
   }
   
@@ -170,8 +169,8 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    padding: 2.5rem 0;
-    margin: 2rem 0;
+    padding: 2rem 0;
+    margin: 1rem 0;
     border-bottom: 1px solid #374151;
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -204,7 +203,7 @@
   }
   
   .organizer-info p {
-    margin: 0.3rem 0;
+    margin-top: 0.2rem;
     font-size: 0.95rem;
     color: #d1d5db;
   }
@@ -279,6 +278,10 @@
   }
 
   @media (max-width: 768px) {
+    .feature-grid {
+      grid-template-columns: 1fr;
+    }
+
     .oac-content {
       max-width: 95%;
       padding: 2rem 1rem;

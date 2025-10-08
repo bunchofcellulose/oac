@@ -12,14 +12,15 @@ css: /assets/css/custom.css
     </h1>
     <div style="margin-top: 8rem;"></div>
     <div class="buttons">
-      <a href="https://forms.gle/2FxCYCFbwj3gJ7VMA" class="btn" style="font-size:1.13rem;">Register</a>
+      <a href="/register" class="btn" style="font-size:1.13rem;">Register</a>
     </div>
   </div>
 </div>
 
 ---
 
-<div style="margin-top: 20rem;"></div>
+<div style="margin-top: 15rem;"></div>
+<div style="margin-top: 8rem;"></div>
 
 <div class="features" style="text-align:center;">
   <div class="feature">

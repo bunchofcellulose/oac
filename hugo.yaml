@@ -3,18 +3,11 @@ languageCode: en-us
 title: OAC
 theme: hextra
 
-module:
-  imports:
-    - path: github.com/imfing/hextra
-
 menu:
   main:
     - name: Register
-      url: https://forms.gle/2FxCYCFbwj3gJ7VMA
+      url: /register
       weight: 1
-    - name: Results
-      pageRef: /results
-      weight: 2
     - name: Archive
       pageRef: /archive
       weight: 3
@@ -43,7 +36,7 @@ params:
   description: Online Astronomy Competition
 
   displayUpdatedDate: true
-  dateFormat: "January 2, 2006"
+  dateFormat: "October 8, 2025"
 
   math:
     enable: true
@@ -53,10 +46,17 @@ params:
     displayTitle: true
     # displayLogo: true
     logo:
-      path: images/oac.png
+      path: oac.png
+      dark: oac.png
       width: 40
       height: 20
     width: wide
+
+  favicon:
+    favicon: /favicon.ico
+    favicon16x16: /favicon-16x16.png
+    favicon32x32: /favicon-32x32.png
+    appleTouchIcon: /apple-touch-icon.png
 
   page:
     width: normal
@@ -84,12 +84,6 @@ params:
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
       tokenize: forward
-
-  favicon:
-    favicon: /favicon.ico
-    favicon16x16: /favicon-16x16.png
-    favicon32x32: /favicon-32x32.png
-    appleTouchIcon: /apple-touch-icon.png
 
   blog:
     list:

@@ -11,11 +11,13 @@ toc: false
 <div class="section-title-underline"></div>
 
 <p>
-  Fill out the form below to register for the Online Astronomy Competition (OAC). Participation is free and open to all eligible high school students worldwide.
-  <strong>Registration deadline is September 4, 2025</strong>. Please ensure all information is accurate and complete.
+  <!-- Fill out the form below to register for the Online Astronomy Competition (OAC). Participation is free and open to all eligible high school students worldwide. -->
+  <!-- <strong>Registration deadline is September 4, 2025</strong>. Please ensure all information is accurate and complete. -->
+
+  <strong>Registrations for OAC 2025 are now closed.</strong>
 </p>
 
-<div class="registration-box">
+<!-- <div class="registration-box">
   <form
     action=""
     method="POST"
@@ -79,7 +81,7 @@ toc: false
 <p style="text-align:center; margin-top:2rem;">
   Questions? <a href="mailto:onlineastrocompetition@gmail.com" class="contact-btn">Contact us</a>
 </p>
-</div>
+</div> -->
 
   </div>
 </div>
