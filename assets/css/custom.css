@@ -22,9 +22,26 @@
     font-display: swap;
 }
 
+/* Prevent horizontal overflow */
+html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
 .content {
     font-family: 'Futura', 'Arial', sans-serif;
     font-weight: 100;
+}
+
+/* Fix navbar overflow on mobile */
+.nav-container {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.nav-container nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .hextra-scrollbar::-webkit-scrollbar {
@@ -87,7 +104,7 @@
 .gradient {
   display: block;
   font-weight: 900;
-  font-size: 15rem;
+  font-size: clamp(4rem, 15vw, 15rem);
   color: #ffeedf;
   letter-spacing: 0.01em;
   margin-top: 1.8rem;
@@ -153,7 +170,7 @@
   justify-content: center;
   text-align: center;
   width: 500px;
-  min-width: 500px;
+  min-width: 280px;
   max-width: 500px;
   min-height: 300px;
   box-sizing: border-box;
@@ -250,7 +267,7 @@
   content: '';
   position: absolute;
   top: -10vh;
-  left: 49%;
+  left: 50%;
   transform: translateX(-50%);
   width: 100vw;
   height: calc(100% + 60vh);
@@ -292,16 +309,76 @@ body::before {
   .hero {
     flex-direction: column;
     text-align: center;
+    padding: 6vw 4vw;
+  }
+  
+  .hero-content {
+    padding-left: 0;
+    min-width: auto;
+    width: 100%;
   }
   
   .visual {
     height: 300px;
     margin-top: 2rem;
+    min-width: auto;
   }
   
   .animation {
     width: 200px;
     height: 200px;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .feature {
+    width: 100%;
+    min-width: 280px;
+    max-width: 100%;
+  }
+  
+  .features {
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .buttons {
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+  }
+  
+  .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .registration-box {
+    margin: 2rem 1rem;
+    padding: 1.5rem 1rem;
+  }
+  
+  /* Additional overflow fixes */
+  * {
+    max-width: 100vw;
+  }
+  
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nav-container nav {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 }
 .animation {
