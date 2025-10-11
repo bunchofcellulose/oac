@@ -22,9 +22,14 @@
     font-display: swap;
 }
 
-/* Prevent horizontal overflow */
-html, body {
-    overflow-x: hidden;
+/* Prevent horizontal overflow - but allow sticky positioning */
+html {
+    overflow-x: clip;
+    max-width: 100vw;
+}
+
+body {
+    overflow-x: clip;
     max-width: 100vw;
 }
 
@@ -33,16 +38,7 @@ html, body {
     font-weight: 100;
 }
 
-/* Fix navbar overflow on mobile */
-.nav-container {
-    max-width: 100vw;
-    overflow-x: hidden;
-}
 
-.nav-container nav {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
 
 .hextra-scrollbar::-webkit-scrollbar {
     width: 10px;
@@ -395,12 +391,8 @@ body::before {
     max-width: 100%;
     height: auto;
   }
-  
-  .nav-container nav {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
 }
+
 .animation {
   position: relative;
   width: 300px;
