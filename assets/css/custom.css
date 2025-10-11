@@ -66,16 +66,21 @@ html, body {
 
 /* Hide sidebar on desktop for OAC pages, but keep it for mobile hamburger menu */
 body:has(.oac-page) .sidebar-container {
-  display: none;
+  display: none !important;
 }
 
-body:has(.oac-page) .sidebar-container.hx\:max-md\:\[transform\:translate3d\(0\,-100\%\,0\)\] {
-  display: flex;
+/* Hide any sidebar placeholder divs that create empty space */
+body:has(.oac-page) .hx\:h-0.hx\:w-64 {
+  display: none !important;
+}
+
+body:has(.oac-page) .hx\:max-xl\:hidden.hx\:h-0.hx\:w-64 {
+  display: none !important;
 }
 
 @media (max-width: 768px) {
   body:has(.oac-page) .sidebar-container {
-    display: flex;
+    display: flex !important;
   }
 }
 
