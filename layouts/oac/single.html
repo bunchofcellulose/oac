@@ -1,10 +1,6 @@
 {{ define "main" }}
 {{- partial "sidebar.html" (dict "context" . "disableSidebar" true "displayPlaceholder" false) -}}
 <style>
-  body {
-    overflow-x: hidden;
-  }
-  
   .oac-page {
     background: #000000;
     min-height: 100vh;
@@ -12,7 +8,7 @@
     color: #e5e7eb;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
-    overflow-x: hidden;
+    overflow-x: clip;
   }
 
   .contact-btn a {
