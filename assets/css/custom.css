@@ -64,6 +64,21 @@ html, body {
     background: linear-gradient(135deg, #ff6a00, #ee0979);
 }
 
+/* Hide sidebar on desktop for OAC pages, but keep it for mobile hamburger menu */
+body:has(.oac-page) .sidebar-container {
+  display: none;
+}
+
+body:has(.oac-page) .sidebar-container.hx\:max-md\:\[transform\:translate3d\(0\,-100\%\,0\)\] {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  body:has(.oac-page) .sidebar-container {
+    display: flex;
+  }
+}
+
 /* Hero section */
 .hero {
   width: 100%;
