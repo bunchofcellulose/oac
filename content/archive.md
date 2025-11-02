@@ -26,9 +26,8 @@ toc: false
           <li><a href="/archive/oac-2025-invitational-constants.pdf" target="_blank">Instructions and Constants</a></li>
           <li><a href="/archive/oac-2025-invitational-qp.pdf" target="_blank">Question Paper</a></li>
           <li><a href="/archive/oac-2025-invitational-additional-files.zip" target="_blank">Additional Files</a></li>
-          <!-- <li><a href="/archive/results-2025-invitational.pdf" target="_blank">Results</a></li>
-          <li><a href="/archive/oac-2025-invitational-report.pdf" target="_blank">Competition Report</a></li> -->
-          <li>Results (Coming Soon)</li>
+          <li><a href="/archive/results-2025-invitational.pdf" target="_blank">Results</a></li>
+          <!-- <li><a href="/archive/oac-2025-invitational-report.pdf" target="_blank">Competition Report</a></li> -->
           <li>Competition Report (Coming Soon)</li>
           <li>Solutions (Coming Soon)</li>
         </ul>
