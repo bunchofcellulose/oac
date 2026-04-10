@@ -112,6 +112,15 @@ All rounds are conducted online, so you can participate from anywhere in the wor
       </div>
     </div>
   </div>
+  <div class="feature-item">
+    <div class="organizer-card">
+      <img src="/images/sumant.jpg" alt="Sumant Gupta" class="organizer-avatar" />
+      <div>
+        <h3><strong>Sumant Gupta 🇮🇳</strong></h3>
+        <p>Silver Medal, IOAA 2025; Gold Medal, IOAA Jr. 2024</p>
+      </div>
+    </div>
+  </div>
 </div>
 
   </div>
